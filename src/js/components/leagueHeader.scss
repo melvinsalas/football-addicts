@@ -1,0 +1,14 @@
+.headingBackgroud {
+    background: -webkit-linear-gradient(top left, #00897B, #01655b);
+    background: -moz-linear-gradient(top left, #00897B, #01655b);
+    background: -o-linear-gradient(top left, #00897B, #01655b);
+    background: linear-gradient(to bottom right, #00897B, #01655b);
+    padding: 20px 0 30px;
+    color: #FFF;
+}
+
+.leagueheading .img-responsive {
+    margin: 0 auto;
+    max-height: 200px;
+    min-height: 200px;
+}

@@ -1,0 +1,48 @@
+{
+  "name": "brainnotes",
+  "version": "1.0.0",
+  "description": "Evernote Clone React Application",
+  "main": "index.js",
+  "repository": "https://github.com/melvinsalas/brainnotes",
+  "author": "Melvin Salas, Daniel Morales",
+  "license": "MIT",
+  "engines": {
+    "node": "6.9.1",
+    "npm": "3.10.8"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.0",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-syntax-decorators": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.22.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.26.0",
+    "node-sass": "^4.3.0",
+    "postcss-loader": "^1.2.2",
+    "precss": "^1.4.0",
+    "react-router-dom": "next",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap-sass": "^3.3.7",
+    "mdi": "^1.9.33",
+    "moment": "^2.18.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1"
+  }
+}
